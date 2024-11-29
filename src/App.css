@@ -1,0 +1,97 @@
+/* login css */
+
+.bordER {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  border-radius: 5px;
+}
+
+.bacgorunG {
+  background-image: url("https://anilife.vercel.app/static/media/vedio.d1a1d71b52d92096f352.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 100%;
+  height: 100vh;
+}
+
+/* new card css */
+
+.newBtn {
+  background: linear-gradient(90deg, #ff0, orange); /* Gradient background */
+  text-align: center;
+  font-size: 15px;
+  padding: 2px 4px; /* Adjust padding for better button size */
+  font-weight: bold; /* Bold text */
+  border: none; /* Remove border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* scrollbar scroll color */
+
+/* Customize scrollbar for webkit browsers */
+.custom-scrollbar {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #22c55e transparent; /* For Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px; /* Set the scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #22c55e; /* Set the scrollbar thumb color to green */
+  border-radius: 5px; /* Make the scrollbar thumb rounded */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Set the track background to transparent */
+}
+
+/* newcard css */
+
+.radusborder {
+  border-radius: 100% 0% 0% 100% / 48% 30% 70% 52%;
+  background-color: rgba(
+    111,
+    66,
+    193,
+    0.1
+  ) !important; /* Light black background with 50% opacity */
+  backdrop-filter: blur(25px); /* Blur effect */
+  -webkit-backdrop-filter: blur(25px); /* For Safari */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.bacgroountrans {
+  background-color: rgba(
+    111,
+    66,
+    193,
+    0.1
+  ); /* Light black background with 50% opacity */
+  backdrop-filter: blur(25px); /* Blur effect */
+  -webkit-backdrop-filter: blur(25px); /* For Safari */
+  transition: all 0.3s ease; /* Smooth transition */
+  border: none;
+}
+
+/* header css */
+
+/* Add a sliding animation from left to right */
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Applied to mobile menu */
+.mobile-menu {
+  animation: slideFromLeft 0.5s ease-in-out forwards;
+}
